@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan de Oliveira Farias - Desenvolvedor Junior & Técnico Maker</title>
+    <meta name="description" content="Desenvolvedor especializado em tecnologias maker, IA e prototipagem. Graduado em Jogos Digitais pela Fatec Americana.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>Renan de Oliveira Farias</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="mobile-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particle" style="--x: 20%; --y: 20%; --delay: 0s;"></div>
+            <div class="particle" style="--x: 80%; --y: 40%; --delay: 2s;"></div>
+            <div class="particle" style="--x: 40%; --y: 80%; --delay: 4s;"></div>
+            <div class="particle" style="--x: 70%; --y: 10%; --delay: 1s;"></div>
+            <div class="particle" style="--x: 10%; --y: 70%; --delay: 3s;"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-star"></i>
+                <span>Disponível para novos projetos</span>
+            </div>
+            <h1>Renan de Oliveira</h1>
+            <p class="hero-subtitle">
+                <span class="typing-text" id="typing-text"></span>
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> Ver Projetos
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Entre em Contato
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="profile-img">
+                        <img src="profile-img.jpg" alt="Renan de Oliveira Farias">
+                    </div>
+                    <div class="profile-ring"></div>
+                </div>
+                <div class="about-content">
+                    <h3>Desenvolvedor Junior & Especialista em Tecnologias Maker</h3>
+                    <p>Graduado em Tecnologia em Jogos Digitais pela Fatec Americana, com experiência sólida em desenvolvimento de protótipos, programação e tecnologias maker. Especialista em integração de Inteligência Artificial em processos educacionais
+                        e desenvolvimento.</p>
+                    <p>Atualmente trabalho na Maker Mania LTDA como Técnico de Laboratório Jr., onde desenvolvo soluções inovadoras, ensino programação e utilizo IAs como ChatGPT e Claude para otimizar processos e criar experiências educacionais mais eficazes.</p>
+
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Americana, SP</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>27 anos</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Graduado em Jogos Digitais</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <span>Inglês: Intermediário</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills fade-in">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programação</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">Scratch</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Inteligência Artificial</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ChatGPT</span>
+                        <span class="skill-tag">Claude AI</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">Automação com IA</span>
+                        <span class="skill-tag">IA Educacional</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Tecnologias Maker</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Impressão 3D</span>
+                        <span class="skill-tag">Ultimaker Cura</span>
+                        <span class="skill-tag">Tinkercad</span>
+                        <span class="skill-tag">Cortadora Laser</span>
+                        <span class="skill-tag">Prototipagem</span>
+                        <span class="skill-tag">Eletrônica</span>
+                        <span class="skill-tag">Microcontroladores</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Ferramentas & Sistemas</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Windows</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Microsoft 365</span>
+                        <span class="skill-tag">Google Workspace</span>
+                        <span class="skill-tag">TCP/IP</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Desenvolvimento de Jogos</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Game Design</span>
+                        <span class="skill-tag">Unity</span>
+                        <span class="skill-tag">Prototipagem</span>
+                        <span class="skill-tag">Desenvolvimento</span>
+                        <span class="skill-tag">Testes</span>
+                        <span class="skill-tag">UX/UI Games</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Educação & Workshops</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Ensino de Programação</span>
+                        <span class="skill-tag">Workshops Maker</span>
+                        <span class="skill-tag">Material Didático</span>
+                        <span class="skill-tag">IA na Educação</span>
+                        <span class="skill-tag">Mentoria</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience fade-in">
+        <div class="container">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3>Técnico de Laboratório Jr.</h3>
+                        <div class="company">Maker Mania LTDA</div>
+                        <div class="period">Fev/2025 - Dez/2025</div>
+                        <p>Desenvolvimento de protótipos com impressoras 3D, gestão de laboratório maker, ensino de programação e integração de IAs (ChatGPT, Claude) para otimizar processos pedagógicos e administrativos.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Técnico de Laboratório Jr.</h3>
+                        <div class="company">Amadotec</div>
+                        <div class="period">Abr/2023 - Dez/2024</div>
+                        <p>Prototipagem rápida, desenvolvimento com impressoras 3D, programação de microcontroladores Arduino e elaboração de workshops sobre tecnologias maker.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Estágio em Suporte de TI</h3>
+                        <div class="company">Secretaria da Educação</div>
+                        <div class="period">Jul/2021 - Mar/2023</div>
+                        <p>Desenvolvimento em C#, aplicações web, suporte técnico, manutenção de redes e sistemas educacionais Google for Education.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <h3>Operador Comercial</h3>
+                        <div class="company">Lojas Americanas S/A</div>
+                        <div class="period">Set/2019 - Set/2020</div>
+                        <p>Atendimento ao cliente, gestão de estoque, atividades administrativas e suporte utilizando Pacote Office.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects fade-in">
+        <div class="container">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/00d4ff/0a0a0a?text=Maker+Coins" alt="Maker Coins 3.0">
+                    </div>
+                    <div class="project-content">
+                        <h3>Maker Coins 3.0</h3>
+                        <p>Sistema de moedas virtuais para gamificação de atividades em laboratórios maker. Incentiva participação e engajamento dos estudantes através de recompensas digitais.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Gamification</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nansinyx26/Maker_Coins3.00" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://nansinyx26.github.io/Maker_Coins3.00" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/6366f1/ffffff?text=Sistema+Solar+VR" alt="Sistema Solar VR">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema Solar 3.0 VR</h3>
+                        <p>Experiência imersiva do sistema solar em realidade virtual para fins educacionais. Permite explorar planetas e aprender astronomia de forma interativa e envolvente.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">VR</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D Modeling</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nansinyx26/Sistema-Solar-VR" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://nansinyx26.github.io/Sistema-Solar-3.0-VR/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/10b981/ffffff?text=Futebol+de+Bot%C3%A3o" alt="Sistema Futebol de Botão">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema Futebol de Botão</h3>
+                        <p>Sistema completo para gerenciamento de campeonatos de futebol de botão, incluindo cadastro de jogadores, times, controle de partidas e estatísticas detalhadas.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Local Storage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nansinyx26/sistemafuteboldebotao" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://nansinyx26.github.io/sistemafuteboldebotao/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/f59e0b/0a0a0a?text=Sistema+Escolar" alt="Sistema Cadastro Escolar">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema Cadastro Escolar</h3>
+                        <p>Sistema para gestão escolar com cadastro de alunos, professores e controle acadêmico. Interface moderna e responsiva para administração educacional eficiente.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nansinyx26/sistema-cadastro-escolar" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/ff6b6b/ffffff?text=Avalia%C3%A7%C3%A3o+Estrelas" alt="Avaliação de Aluno">
+                    </div>
+                    <div class="project-content">
+                        <h3>Avaliação de Aluno</h3>
+                        <p>Sistema de avaliação estudantil com interface intuitiva para professores. Inclui sistema de estrelas e feedback visual para melhor experiência educacional.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">UX/UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nansinyx26/Avalia-o_de_Aluno-Com_Estrela" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x200/8b5cf6/ffffff?text=Portfolio+Pessoal" alt="Portfolio Pessoal">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Cadastro de Senha Criptografada</h3>
+                        <p>Sistema simples para cadastro e armazenamento de senhas com criptografia..</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nansinyx26/Cadastra_Senha_Criptografada" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <div class="container">
+            <h2 class="section-title">Vamos Trabalhar Juntos?</h2>
+            <div class="contact-content">
+                <p>Estou sempre aberto a novos desafios e oportunidades. Entre em contato para discutirmos como posso contribuir com seu projeto!</p>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>oliversinyxcontato@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(19) 98427-5085</span>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://wa.me/5519984275085" target="_blank" class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp Disponível</span>
+                        </a>
+                    </div>
+
+
+
+                    <div class="cta-buttons">
+                        <a href="mailto:oliversinyxcontato@gmail.com" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Enviar Email
+                        </a>
+                        <a href="https://bit.ly/46QNGZv" class="btn btn-secondary" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Nansinyx26" class="social-link" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://bit.ly/46QNGZv" class="social-link" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://drive.google.com/drive/u/0/folders/1jS1x8hgbx7YPDWVzuvsuirphuOVnonIV" class="social-link" target="_blank" title="Certificados">
+                    <i class="fas fa-certificate"></i>
+                </a>
+                <a href="mailto:oliversinyxcontato@gmail.com" class="social-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Renan de Oliveira Farias. Desenvolvido com <i class="fas fa-heart" style="color: #ff6b6b;"></i> e tecnologia.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
